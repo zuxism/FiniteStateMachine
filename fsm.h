@@ -146,7 +146,7 @@ void fsm_set_tranzition(const char* from_this_state_name, const char* to_this_st
 
 
 const char* fsm_active_state() {
-    return active_state_info.name;
+    return active_state_info->state_name;
 }
 
 
